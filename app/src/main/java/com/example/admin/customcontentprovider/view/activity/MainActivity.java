@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity implements MainActivityContr
         carAdapter = new CarAdapter(carsList);
         rvCars.setAdapter(carAdapter);
         carAdapter.notifyDataSetChanged();
-
     }
 
     private void refreshValuesFromContentProvider() {
